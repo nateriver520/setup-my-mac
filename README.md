@@ -1,4 +1,4 @@
-set-up-my-mac
+Setup My Mac
 =============
 
-My shell script to set up ma
+My shell script to setup my mac
