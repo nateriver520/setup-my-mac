@@ -1,5 +1,5 @@
 
-# home brew
+# homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # cask
@@ -9,7 +9,7 @@ brew install caskroom/cask/brew-cask
 brew cask install appcleaner sublime-text skitch mplayerx the-unarchiver evernote qq thunder qqinput netease-music
 brew cask install intellij-idea-ce
 
-#env
+# env
 brew install git-extras
 brew install wget
 
