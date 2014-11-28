@@ -18,6 +18,10 @@ brew install groovy
 brew install gradle
 brew install maven
 
+# java 1.7 env
+echo 'export JAVA_HOME=`/usr/libexec/java_home -v 1.7`' >> ~/.zshrc
+echo 'export PATH=${JAVA_HOME}/bin:$PATH' >> ~/.zshrc
+
 
 # node js
 brew install node
@@ -35,3 +39,7 @@ unset TMPDIR
 mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)"
 mysql.server start
 /usr/local/opt/mysql/bin/mysqladmin -u root password '123456'
+
+
+# oh-my-zsh
+curl -L http://install.ohmyz.sh | sh
