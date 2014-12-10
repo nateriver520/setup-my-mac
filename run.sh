@@ -7,7 +7,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install caskroom/cask/brew-cask
 
 # software
-brew cask install appcleaner sublime-text skitch mplayerx the-unarchiver evernote qq thunder qqinput netease-music aliwangwang
+brew cask install appcleaner sublime-text skitch mplayerx the-unarchiver evernote qq thunder qqinput netease-music aliwangwang sopcast
 brew cask install intellij-idea-ce
 
 # env
