@@ -50,3 +50,6 @@ mysql.server start
 
 # oh-my-zsh
 curl -L http://install.ohmyz.sh | sh
+
+# set mplayer history number to zero
+defaults write org.niltsh.MPlayerX NSRecentDocumentsLimit 0 
